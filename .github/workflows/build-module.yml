@@ -13,20 +13,20 @@ jobs:
       matrix:
         build_env:
           - tag: "24.10.0-rc5"
-            pkgarch: mips_24kc
+            pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: filogic
-            vermagic: "5c9be91b90bda5403fe3a7c4e8ddb26f"
+            vermagic: "9469a6c8c449c47e503c05678ea1559d-r1"
           - tag: "24.10.0-rc5"
-            pkgarch: mipsel_24kc
+            pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: filogic
-            vermagic: "9c242f353867f49a96054ff8c9f2c460"
+            vermagic: "9469a6c8c449c47e503c05678ea1559d-r1"
           - tag: "24.10.0-rc5"
-            pkgarch: mipsel_24kc
+            pkgarch: aarch64_cortex-a53
             target: mediatek
             subtarget: filogic
-            vermagic: "9c242f353867f49a96054ff8c9f2c460"
+            vermagic: "9469a6c8c449c47e503c05678ea1559d-r1"
 
     steps:
       - uses: actions/checkout@v4
